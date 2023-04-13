@@ -22,7 +22,7 @@ function App() {
     { id: '11', text: 'a testimonial from Nkosivumile , who is in our IT System Support',image:'' },
     { id: '12', text: 'a testimonial from Melusi , who is in our IT System Support' ,image:''},
     { id: '13', text: 'a testimonial from Mbuyiselo , who is in our IT System Support',image:'https://cdn.discordapp.com/attachments/1096058730480668782/1096059357894029373/IMG_20230203_123756.jpg' },
-    { id: '14', text: 'a testimonial from Thembani , who is in our IT System Support',image:'https://cdn.discordapp.com/attachments/994851596112502837/1044508435259076758/IMG_6848.jpg' },
+    { id: '14', text: 'a testimonial from Thembani , who is in our IT System Support',image:'https://cdn.discordapp.com/attachments/1096056243568779284/1096057082073067572/Screenshot_2023-04-13_145726.png ' },
   ]
 
   return (
