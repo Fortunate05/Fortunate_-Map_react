@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
 .card
 {
     width: 18rem;
@@ -11,4 +13,6 @@
   h1{
     text-align: center;
     color: palevioletred;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 40px;
   }
