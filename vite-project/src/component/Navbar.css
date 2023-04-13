@@ -3,6 +3,11 @@
 .NavText
 {
     font-family: 'Delicious Handrawn', cursive;
-    font-size: 40px;
+    font-size: 48px;
     color: cadetblue
+}
+.container-fluid
+{
+ font-style: italic;
+ color: black;
 }
