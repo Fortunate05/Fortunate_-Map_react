@@ -1,0 +1,14 @@
+.card
+{
+    width: 18rem;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  h1{
+    text-align: center;
+    color: palevioletred;
+  }
