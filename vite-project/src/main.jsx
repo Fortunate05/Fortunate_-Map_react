@@ -6,12 +6,18 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Home from './component/Pages/Home';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <Home/>,
   },
+  {
+    path: "/it_staff",
+    element: <App/>,
+  }
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
