@@ -5,7 +5,7 @@ import Navbar from './component/Navbar'
 function App() {
 
   const Facilitator=[
-    {id:'0',text: 'a testimonial from CY , who is in our Facilitator IT System Support',image:'' },
+    {id:'0',text: 'a testimonial from CY , who is in our Facilitator IT System Support',image:'https://avatars.githubusercontent.com/u/99396410?v=4' },
   ]
 
   const person = [
