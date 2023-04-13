@@ -1,11 +1,12 @@
 import './component/Navbar'
 import './App.css'
 import Navbar from './component/Navbar'
+import CY from './assets/cy.jpeg'
 
 function App() {
 
   const Facilitator=[
-    {id:'0',text: 'a testimonial from CY , who is in our Facilitator IT System Support',image:'https://avatars.githubusercontent.com/u/99396410?v=4' },
+    {id:'0',text: 'a testimonial from CY , who is in our Facilitator IT System Support',image:CY },
   ]
 
   const person = [
@@ -17,7 +18,7 @@ function App() {
     { id: '6', text: 'a testimonial from Reginah , who is in our IT System Support',image:'https://cdn.discordapp.com/attachments/1021684832922779648/1021685547468587079/IMG_20220920_085647.jpg' },
     { id: '7', text: 'a testimonial from Tshepo , who is in our IT System Support',image:'https://cdn.discordapp.com/attachments/994851596112502837/1044508435259076758/IMG_6848.jpg' },
     { id: '8', text: 'a testimonial from Bonke , who is in our IT System Support' ,image:'https://cdn.discordapp.com/attachments/1096068491288776896/1096069590561329302/IMG-20230413-WA0003.jpg'},
-    { id: '9', text: 'a testimonial from Sonke , who is in our IT System Support',image:'' },
+    { id: '9', text: 'a testimonial from Sonke , who is in our IT System Support',image:'https://cdn.discordapp.com/attachments/1096058165172391956/1096075408224563220/IMG-20230413-WA0026.jpg' },
     { id: '10', text: 'a testimonial from Bathande , who is in our IT System Support',image:'https://cdn.discordapp.com/attachments/1096055379567333446/1096055670777851914/18A7E0EE-2168-47A5-A1E6-2070DBF0A52C.jpg' },
     { id: '11', text: 'a testimonial from Nkosivumile , who is in our IT System Support',image:'https://cdn.discordapp.com/attachments/1096068491288776896/1096069111085281351/IMG-20230413-WA0002.jpg' },
     { id: '12', text: 'a testimonial from Melusi , who is in our IT System Support' ,image:'https://cdn.discordapp.com/attachments/1096068491288776896/1096068968080482405/Screenshot_20230413_154551.jpg'},
@@ -34,7 +35,7 @@ function App() {
         <h1>Staff PWD 2022</h1>
 
         <div key={Facilitator.id} className="card"  id='cardFacil'>
-                  <img src={Facilitator.image} className="card-img-top" alt="..." />
+                  <img src={Facilitator[0].image} className="card-img-top" alt="..." />
                   <div className="card-body">
                     <p className="card-text">{Facilitator[0].text}</p>
                   </div>
