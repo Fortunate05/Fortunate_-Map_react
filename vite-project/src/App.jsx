@@ -5,19 +5,19 @@ import Card from 'react-bootstrap/Card';
 function App() {
 
   const person = [
-    { id: '1', name: 'Fortunate' },
-    { id: '2', name: 'Asanda' },
-    { id: '3', name: 'Thozama' },
-    { id: '4', name: 'Siyanda' },
-    { id: '5', name: 'Sibongile' },
-    { id: '6', name: 'Reginal' },
-    { id: '7', name: 'Tshepo' },
-    { id: '8', name: 'Bonke' },
-    { id: '9', name: 'Sonke' },
-    { id: '10', name: 'Bathande' },
-    { id: '12', name: 'Nkosivumile' },
-    { id: '13', name: 'Melusi' },
-    { id: '14', name: 'Thembani' },
+    { id: '1', name: 'Fortunate', text: 'she is hardworking'},
+    { id: '2', name: 'Asanda', text: 'she is hardworking' },
+    { id: '3', name: 'Thozama', text:'' },
+    { id: '4', name: 'Siyanda', text:'' },
+    { id: '5', name: 'Sibongile' , text:''},
+    { id: '6', name: 'Reginal', text:'' },
+    { id: '7', name: 'Tshepo', text:'' },
+    { id: '8', name: 'Bonke' , text:''},
+    { id: '9', name: 'Sonke', text:'' },
+    { id: '10', name: 'Bathande', text:'' },
+    { id: '12', name: 'Nkosivumile' , text:''},
+    { id: '13', name: 'Melusi', text:'' },
+    { id: '14', name: 'Thembani', text:'' },
   ]
 
   return (
@@ -34,8 +34,7 @@ function App() {
                   <img src="..." className="card-img-top" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title">{staff.name}</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+                    <p className="card-text">{staff.text}</p>
                   </div>
                 </div>
 
