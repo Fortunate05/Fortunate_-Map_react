@@ -1,0 +1,16 @@
+.list-group-item
+{
+    width: 300px;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+.list-group-item:hover
+{
+    background-color: whitesmoke;
+    opacity: 0.5;
+}
+h3{
+    align-items: center;
+    margin-left: 4rem;
+    color: yellow;
+}
