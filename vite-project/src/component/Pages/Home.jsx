@@ -11,15 +11,13 @@ export default function Home() {
     <div>
       <Navbar />
 
-      
+
       <ListGroup>
-        <ListGroup.Item><h3>Deaf Staff</h3></ListGroup.Item>
-        <ListGroup.Item variant="primary">We here Digital Academy at Braamfontein.<>
-      <Placeholder as="p" animation="glow">
-        <Placeholder xs={12} />
-      </Placeholder>
-      
-    </></ListGroup.Item>
+        <ListGroup.Item><h3>Deaf Staff</h3><Placeholder as="p" animation="glow">
+          <Placeholder xs={12} />
+        </Placeholder></ListGroup.Item>
+        <ListGroup.Item variant="primary">We here Digital Academy at Braamfontein.
+        </ListGroup.Item>
         <ListGroup.Item variant="secondary">We study at Information Technology Support System.</ListGroup.Item>
         <ListGroup.Item variant="success">We learn Code and Logical.</ListGroup.Item>
         <ListGroup.Item variant="danger">We have a interpret for Deaf staff.</ListGroup.Item>
@@ -28,7 +26,7 @@ export default function Home() {
         <ListGroup.Item variant="light">We have a good clean environment</ListGroup.Item>
         <ListGroup.Item variant="dark">We have a presentation as show office how we work</ListGroup.Item>
       </ListGroup>
-      
+
 
     </div>
   )
