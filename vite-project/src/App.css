@@ -26,6 +26,7 @@
   img{
     width: 150px;
     height: 200px;
+    border-style: dotted;
   }
   .card-text{
     font-family: 'Delicious Handrawn', cursive;
