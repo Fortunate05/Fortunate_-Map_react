@@ -1,7 +1,7 @@
 import './component/Navbar'
 import './App.css'
 import Navbar from './component/Navbar'
-import CY from './assets/cy.jpeg'
+
 
 function App() {
 
