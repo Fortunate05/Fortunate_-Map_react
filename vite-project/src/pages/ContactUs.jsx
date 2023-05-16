@@ -45,9 +45,9 @@ export default function ContactUs() {
                         <div className="mr-3 align-self-center">
                           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon2.png" />
                         </div>
-                        <div className="">
+                        <div className="phone">
                           <h6 className="font-weight-medium">Phone</h6>
-                          <p className=""> 061 544 9366<br/></p>
+                          <p> 061 544 9366<br/></p>
                         </div>
                       </div>
                     </div>
@@ -73,7 +73,7 @@ export default function ContactUs() {
         </div>
       </div>
     </div>
-      </div >
+  </div >
 
 
 

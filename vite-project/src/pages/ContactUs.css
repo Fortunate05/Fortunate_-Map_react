@@ -1,8 +1,22 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
 .card-shadow
 {
-    width: 39rem;
-    height: 20rem;
-    margin-left:6rem ;
-
+    width: 70%;
+    height: 70%;
+    margin-left:6rem ; 
 }
+
+.contact-box{
+    width: 70%;
+    height: 60%; 
+}
+
+.phone{
+   justify-content: space-between;
+   
+}
+ .phone p{
+    position: absolute;
+    margin-top: -2%;
+    
+ }
