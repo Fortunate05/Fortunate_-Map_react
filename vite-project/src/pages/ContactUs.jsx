@@ -32,36 +32,36 @@ export default function ContactUs() {
                             </div>
                             <div className="">
                               <h6 className="font-weight-medium">Address</h6>
-                              <p className="">601 Sherwood Ave.
-                                <br /> San Bernandino</p>
-                            </div>
-                          </div>
+                              <p className="">The Media Mill , 7 Quince Street
+                                <br />Auckland Park
+                                Johannesburg
+                                2092
+                                </p>
                         </div>
-                        <div className="col-lg-4 col-md-4">
-                          <div className="card-body d-flex align-items-center c-detail">
-                            <div className="mr-3 align-self-center">
-                              <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon2.png" />
-                            </div>
-                            <div className="">
-                              <h6 className="font-weight-medium">Phone</h6>
-                              <p className="">251 546 9442
-                                <br /> 630 446 8851</p>
-                            </div>
-                          </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-4">
+                      <div className="card-body d-flex align-items-center c-detail">
+                        <div className="mr-3 align-self-center">
+                          <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon2.png" />
                         </div>
-                        <div className="col-lg-4 col-md-4">
-                          <div className="card-body d-flex align-items-center c-detail">
-                            <div className="mr-3 align-self-center">
-                              <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon3.png" />
-                            </div>
-                            <div className="">
-                              <h6 className="font-weight-medium">Email</h6>
-                              <p className="">
-                                info@wrappixel.com
-                                <br /> 123@wrappixel.com
-                              </p>
-                            </div>
-                          </div>
+                        <div className="">
+                          <h6 className="font-weight-medium">Phone</h6>
+                          <p className=""> 061 544 9366<br/></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-md-4">
+                      <div className="card-body d-flex align-items-center c-detail">
+                        <div className="mr-3 align-self-center">
+                          <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon3.png" />
+                        </div>
+                        <div className="">
+                          <h6 className="font-weight-medium">Email</h6>
+                          <p className="">
+                          info@thedigitalacademy.co.za
+                            <br /> 
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -72,10 +72,12 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
-
-
-
     </div>
+      </div >
+
+
+
+    </div >
 
   )
 }
