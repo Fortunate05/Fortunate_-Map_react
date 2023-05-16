@@ -1,15 +1,12 @@
 import React from 'react'
 import '../component/Navbar.css'
-import image from '../assets/DA_Logo.jpg'
 
 function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="/">
-      <img src={image} alt="" />
-    </a>
+    <a className="navbar-brand" href="/"><span className='NavText'>Digital Academy</span></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
