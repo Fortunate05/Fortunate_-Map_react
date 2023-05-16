@@ -23,10 +23,10 @@
     width: 18rem;
 
   }
-  img{
+  #Facilitator, #staff{
     width: 150px;
     height: 200px;
-    border-style: dotted;
+    border-radius: 2px;
   }
   .card-text{
     font-family: 'Delicious Handrawn', cursive;

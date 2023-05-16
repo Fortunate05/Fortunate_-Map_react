@@ -1,10 +1,11 @@
-import './components/Navbar'
-import './App.css'
-import Navbar from './components/Navbar'
-import CY from './assets/cy.jpeg'
 
-function App() {
+import '../pages/DA.css'
+import CY from '../assets/cy.jpeg'
+import Navbar from '../components/Navbar'
 
+function DA() {
+
+    
   const Facilitator=[
     {id:'0',text: 'a testimonial from CY , who is in our Facilitator IT System Support',image:CY },
   ]
@@ -27,13 +28,12 @@ function App() {
   return (
     <>
       <div>
-        <Navbar />
-
+        <Navbar/>
 
         <h1>Staff PWD 2022</h1>
 
         <div key={Facilitator.id} className="card"  id='cardFacil'>
-                  <img src={Facilitator[0].image} className="card-img-top" alt="..." />
+                  <img id='Facilitator' src={Facilitator[0].image} className="card-img-top" alt="..." />
                   <div className="card-body">
                     <p className="card-text">{Facilitator[0].text}</p>
                   </div>
@@ -46,7 +46,7 @@ function App() {
               return (
 
                 <div key={staff.id} className="card" >
-                  <img src={staff.image} className="card-img-top" alt="..." />
+                  <img id='staff' src={staff.image} className="card-img-top" alt="..." />
                   <div className="card-body">
                     <p className="card-text">{staff.text}</p>
                   </div>
@@ -61,6 +61,7 @@ function App() {
     </>
 
   );
+  
 }
 
-export default App
+export default DA
