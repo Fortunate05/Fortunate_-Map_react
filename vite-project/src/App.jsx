@@ -1,6 +1,6 @@
-import './component/Navbar'
+import './components/Navbar'
 import './App.css'
-import Navbar from './component/Navbar'
+import Navbar from './components/Navbar'
 import CY from './assets/cy.jpeg'
 
 function App() {

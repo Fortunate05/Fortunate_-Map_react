@@ -1,17 +1,13 @@
 import React from 'react'
-import Navbar from '../Navbar'
 import ListGroup from 'react-bootstrap/ListGroup';
 import Placeholder from 'react-bootstrap/Placeholder';
 import '../Pages/Home.css'
+import Navbar from '../components/Navbar';
 
-
-
-export default function Home() {
+function AboutUs() {
   return (
     <div>
-      <Navbar />
-
-
+      <Navbar/>
       <ListGroup>
         <ListGroup.Item><h3>Deaf Staff</h3><Placeholder as="p" animation="glow">
           <Placeholder xs={12} />
@@ -26,8 +22,9 @@ export default function Home() {
         <ListGroup.Item variant="light">We have a good clean environment.</ListGroup.Item>
         <ListGroup.Item variant="dark">We have a presentation as show office how we work.</ListGroup.Item>
       </ListGroup>
-
-
     </div>
   )
 }
+
+export default AboutUs
+
