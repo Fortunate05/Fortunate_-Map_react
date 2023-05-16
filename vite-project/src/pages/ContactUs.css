@@ -4,6 +4,13 @@
   color: #8d97ad;
   font-weight: 300;
 }
+.card-shadow
+{
+    width: 39rem;
+    height:41rem;
+    margin-left:6rem ;
+
+}
 
 .contact3 h1,
 .contact3 h2,
