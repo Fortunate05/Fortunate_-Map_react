@@ -16,7 +16,13 @@ function Navbar() {
           <a className="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/it_staff">IT Staff </a>
+          <a className="nav-link active" aria-current="page" href="/">About Us</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/it_staff">Picture JunePwD</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link active" aria-current="page" href="/">Contact Us</a>
         </li>
       </ul>
     </div>
