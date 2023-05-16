@@ -19,7 +19,7 @@ function Navbar() {
           <a className="nav-link active" aria-current="page" href="/about">AboutUs</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/it_staff">Picture JunePwD</a>
+          <a className="nav-link active" aria-current="page" href="/it_staff">Picture PwD</a>
         </li>
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="/contact">ContactUs</a>
