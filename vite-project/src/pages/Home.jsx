@@ -10,8 +10,9 @@ export default function Home() {
   return (
     <div>
       <Navbar />
+      <Video/>
       <Slider/>
-     <Video/>
+     
     </div>
   )
 }
