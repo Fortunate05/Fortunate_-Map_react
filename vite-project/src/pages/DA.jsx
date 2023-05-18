@@ -30,7 +30,7 @@ function DA() {
       <div>
         <Navbar/>
 
-        <h1>Staff PWD 2022</h1>
+        <h1>June 2022</h1>
 
         <div key={Facilitator.id} className="card"  id='cardFacil'>
                   <img id='Facilitator' src={Facilitator[0].image} className="card-img-top" alt="..." />
