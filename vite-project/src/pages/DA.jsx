@@ -55,10 +55,18 @@ function DA() {
               return (
 
                 <div key={staff.id} className="card" >
-                  <img id='staff' src={staff.image} className="card-img-top" alt="..." />
-                  <div className="card-body">
-                    <p className="card-text">{staff.text}</p>
+                  <div class="flip-box">
+                    <div className="flip-box-inner">
+                      <div className="flip-box-front">
+                      <img id='staff' src={staff.image} className="card-img-top" alt="..." />
+                    </div>
+                    <div className="flip-box-back">
+                      <div className="card-body">
+                        <p className="card-text">{staff.text}</p>
+                      </div>
+                    </div>
                   </div>
+                </div>
                 </div>
 
               )
