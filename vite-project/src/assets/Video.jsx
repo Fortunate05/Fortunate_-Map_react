@@ -1,6 +1,6 @@
 import React from 'react'
 import VideoSchool from '../assets/DA1.mp4'
-// import Video from 'Video.css'
+import '../assets/Video.css';
 
 const Video = () => {
   return (
