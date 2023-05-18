@@ -7,7 +7,7 @@ function DA() {
 
     
   const Facilitator=[
-    {id:'0',text: 'a testimonial from CY , Thank you for Digital Academy give me who is in our Facilitator IT System Support Level 5 and teach them to learn understanding and skills',image:CY },
+    {id:'0',text: 'a testimonial from CY , Thank you for Digital Academy give me who is in our Mentor IT System Support Level 5 and teach them to learn understanding and skills',image:CY },
   ]
 
   const person = [
