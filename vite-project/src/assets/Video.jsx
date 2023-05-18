@@ -1,10 +1,11 @@
 import React from 'react'
-import VideoSchool from '../assets/video.mp4'
+import VideoSchool from '../assets/DA1.mp4'
+// import Video from 'Video.css'
 
 const Video = () => {
   return (
     <div>
-        <video width="100%" height="100%" controls>
+        <video className='vdo' controls>
          <source src={VideoSchool} type="video/mp4" />
         </video>
     </div>
