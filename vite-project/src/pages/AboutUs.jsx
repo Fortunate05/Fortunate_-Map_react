@@ -3,6 +3,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Placeholder from 'react-bootstrap/Placeholder';
 import '../Pages/Home.css'
 import Navbar from '../components/Navbar';
+import '../pages/AboutUs.css';
 
 function AboutUs() {
   return (
