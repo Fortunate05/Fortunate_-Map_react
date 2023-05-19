@@ -1,5 +1,21 @@
-img{
+
+div.background {
+    background: url(https://cdn.discordapp.com/attachments/1096055379567333446/1109010894614175774/IMG_3702.jpg) repeat;
+    border: 2px solid black;
     height: 500px;
     width: 68%;
     margin-left: 15rem;
-}
+  }
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
