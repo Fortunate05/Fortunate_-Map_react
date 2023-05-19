@@ -5,6 +5,7 @@ import '../assets/Video.css';
 const Video = () => {
   return (
     <div>
+        
         <video className='vdo' controls>
          <source src={VideoSchool} type="video/mp4" />
         </video>
