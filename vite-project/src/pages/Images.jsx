@@ -1,15 +1,14 @@
 import React from 'react'
 import '../pages/Images.css'
-
+import img from '../assets/DA.jpg'
 
 
 const Images = () => {
     return (
         <div>
-            <div class="background">
-                <div class="transbox">
-                    <p>Welcome</p>
-                </div>
+            <div className="background">
+                <p>Digital Academy</p>
+
             </div>
 
         </div>

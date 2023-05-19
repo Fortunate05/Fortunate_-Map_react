@@ -8,8 +8,9 @@ import '../pages/AboutUs.css';
 function AboutUs() {
   return (
     <div>
+      <br /><br />
       <Navbar/>
-      <ListGroup>
+      <ListGroup className='List'>
         <ListGroup.Item><h3>PWD doing what</h3><Placeholder as="p" animation="glow">
           <Placeholder xs={12} />
         </Placeholder></ListGroup.Item>

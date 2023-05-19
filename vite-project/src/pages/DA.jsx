@@ -33,7 +33,7 @@ function DA() {
         <h1>June 2022</h1>
 
         <div key={Facilitator.id} className="card" id='cardFacil'>
-          <div class="flip-box">
+          <div className="flip-box">
             <div className="flip-box-inner">
               <div className="flip-box-front">
                 <img id='Facilitator' src={Facilitator[0].image} className="card-img-top" alt="..." />
@@ -66,7 +66,7 @@ function DA() {
                       </div>
                     </div>
                   </div>
-                </div>
+                  </div>
                 </div>
 
               )

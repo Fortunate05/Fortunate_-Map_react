@@ -1,21 +1,23 @@
 
 div.background {
     background: url(https://cdn.discordapp.com/attachments/1096055379567333446/1109010894614175774/IMG_3702.jpg) repeat;
-    border: 2px solid black;
-    height: 500px;
-    width: 68%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 70%;
+    background-position: center center;
+    height: 550px;
+    width: 78%;
     margin-left: 15rem;
+    padding-top: 3rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 3rem;
   }
-  
-  div.transbox {
-    margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.6;
-  }
-  
-  div.transbox p {
-    margin: 5%;
+p
+{
+    margin-top: 15rem;
+    margin-left: 27rem;
+    color: white;
     font-weight: bold;
-    color: #000000;
-  }
+    font-size: 60px;
+}
