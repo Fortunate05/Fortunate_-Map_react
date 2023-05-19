@@ -1,8 +1,6 @@
-.d-block
-{
-margin-top: 30px;
-margin-bottom: 35px;
-height: 40vh;
-width: 340px;
-margin-left: 40%;
+.mySlider {
+    width: 80%;
+    height: 400px;
+    overflow: hidden;
+    margin: 3rem auto;
 }
