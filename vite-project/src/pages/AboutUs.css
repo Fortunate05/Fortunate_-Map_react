@@ -1,10 +1,7 @@
 h3{
     color: black;
 }
-.List
+.ListGroup.Item
 {
-    position: absolute;
-    Right: 50%;
-    top: 6rem;
-    z-index: -1;
+    margin-top: 100px;
 }

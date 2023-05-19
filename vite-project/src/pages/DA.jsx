@@ -27,8 +27,9 @@ function DA() {
 
   return (
     <>
-      <div>
-        <Navbar />
+    <div>
+        <Navbar/>
+        
 
         <h1>June 2022</h1>
 
@@ -55,7 +56,7 @@ function DA() {
               return (
 
                 <div key={staff.id} className="card" >
-                  <div class="flip-box">
+                  <div className="flip-box">
                     <div className="flip-box-inner">
                       <div className="flip-box-front">
                       <img id='staff' src={staff.image} className="card-img-top" alt="..." />
@@ -72,8 +73,8 @@ function DA() {
               )
             })
           }
-        </div>
-      </div>
+          </div>
+          </div>
 
     </>
 

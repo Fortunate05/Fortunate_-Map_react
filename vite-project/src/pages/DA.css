@@ -31,6 +31,8 @@
   }
   .card-text{
     font-family: 'Delicious Handrawn', cursive;
+  
+  
   }
   .flip-box {
     background-color: transparent;
@@ -62,6 +64,7 @@
   }
   
   .flip-box-front {
+    
     color: black;
   }
   

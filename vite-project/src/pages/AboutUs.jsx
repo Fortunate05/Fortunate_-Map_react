@@ -3,14 +3,13 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Placeholder from 'react-bootstrap/Placeholder';
 import '../Pages/Home.css'
 import Navbar from '../components/Navbar';
-import '../pages/AboutUs.css';
+import '../pages/AboutUs.css'
 
 function AboutUs() {
   return (
     <div>
-      <br /><br />
       <Navbar/>
-      <ListGroup className='List'>
+      <ListGroup>
         <ListGroup.Item><h3>PWD doing what</h3><Placeholder as="p" animation="glow">
           <Placeholder xs={12} />
         </Placeholder></ListGroup.Item>

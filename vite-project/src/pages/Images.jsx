@@ -7,7 +7,7 @@ const Images = () => {
     return (
         <div>
             <div className="background">
-                <p>Digital Academy</p>
+                <p className='digital'>Digital Academy</p>
 
             </div>
 
