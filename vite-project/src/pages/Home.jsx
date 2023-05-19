@@ -12,8 +12,8 @@ export default function Home() {
     <div>
       <Navbar />
       <Images/>
-      <Video/>
       <Slider/>
+      <Video/>
      
     </div>
   )
