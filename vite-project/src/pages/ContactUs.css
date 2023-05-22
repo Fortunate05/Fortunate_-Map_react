@@ -3,20 +3,22 @@
 {
     width: 70%;
     height: 70%;
-    margin-left:6rem ; 
+    margin-left: 2rem ; 
 }
 
 .weight-medium{
     width: 70%;
-    height: 60%; 
+    height: 60%;
 }
 
 .phone{
    justify-content: space-between;
+   padding-left: 6rem;
+   position: fixed;
+   margin-top: 1rem;
    
 }
- .phone p{
-    position: absolute;
-    margin-top: -2%;
-    
+
+ .align-self-center{
+    margin-left: 1rem;
  }

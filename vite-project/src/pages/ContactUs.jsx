@@ -30,7 +30,7 @@ export default function ContactUs() {
                             <div className="mr-3 align-self-center">
                               <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon1.png" />
                             </div>
-                            <div className="">
+                            <div className="phone">
                               <h6 className="font-weight-medium">Address</h6>
                               <p className="">The Media Mill , 7 Quince Street
                                 <br />Auckland Park
@@ -56,7 +56,7 @@ export default function ContactUs() {
                         <div className="mr-3 align-self-center">
                           <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/contact/icon3.png" />
                         </div>
-                        <div className="">
+                        <div className="phone">
                           <h6 className="font-weight-medium">Email</h6>
                           <p className="">
                           info@thedigitalacademy.co.za
