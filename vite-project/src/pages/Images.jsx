@@ -1,6 +1,6 @@
 import React from 'react'
 import '../pages/Images.css'
-import img from '../assets/DA.jpg'
+
 
 
 const Images = () => {
