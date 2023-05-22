@@ -12,7 +12,7 @@ function DA() {
 
   const person = [
     { id: '1', text: 'a testimonial from Fortunate ,Thank you for reaching out about Level 5 on your team DA, i appreciate you motivate us to hard working and learn code HTML,CSS and ReactJs.', image: 'https://media.discordapp.net/attachments/1021684832922779648/1021685478560370728/IMG_20220920_085957.jpg?width=460&height=613' },
-    { id: '2', text: 'a testimonial from Bathande ,  i really appreciate the opportunity for Level 5 i learnt enjoy.', image: 'https://cdn.discordapp.com/attachments/1096055379567333446/1108322303856607272/5813F856-D149-46DF-85F5-DB6573CE6AD1.jpg' },
+    { id: '2', text: 'a testimonial from Bathande ,  I am extremely grateful that the Digital Academy has given me the oppoertunity to learn programming code with talent software developers.', image: 'https://cdn.discordapp.com/attachments/1096055379567333446/1108322303856607272/5813F856-D149-46DF-85F5-DB6573CE6AD1.jpg' },
     { id: '3', text: 'a testimonial from Melusi , Thank you for opportunity how teach me confidence, learn skill.', image: 'https://media.discordapp.net/attachments/1096055379567333446/1108321042310627499/IMG_3689.jpg?width=372&height=662' },
     { id: '4', text: 'a testimonial from Nkosivumile , Thank you for providing me with the opportunity to work with you and your team.', image: 'https://media.discordapp.net/attachments/1096068491288776896/1110103945268969502/IMG-20230522-WA0000.jpg?width=382&height=613' },
     { id: '5', text: 'a testimonial from Mbuyiselo , Thank you for the opportunity to learn from Digital Academy', image: 'https://media.discordapp.net/attachments/1096058730480668782/1108020470885912607/IMG_6837.jpg?width=460&height=613' },
