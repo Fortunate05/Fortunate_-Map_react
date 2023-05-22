@@ -20,7 +20,7 @@ export default function ContactUs() {
               </div>
               <div className="col-lg-6">
                 <div className="contact-box ml-3">
-                  <h1 className="font-weight-light mt-2">Chat Us</h1>
+                  <h1 className="font-weight-light mt-2">Contact Us</h1>
                   {/* ---------------------------- */}
                   <div className="col-lg-12">
                     <div className="card mt-4 border-0 mb-4">
