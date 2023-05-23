@@ -6,7 +6,7 @@ const Video = () => {
   return (
     <div>
         
-        <video className='vdo' controls>
+        <video className='vdo' controls autoPlay muted>
          <source src={VideoSchool} type="video/mp4" />
         </video>
     </div>
